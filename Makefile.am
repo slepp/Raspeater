@@ -1,4 +1,2 @@
-all: raspeater
-
-raspeater: main.o
-	$(CC) -o raspeater main.o
+AUTOMAKE_OPTIONS = foreign
+SUBDIRS = src
